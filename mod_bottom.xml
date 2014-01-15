@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1" client="site" method="upgrade">
-	<name>Bottom</name>
-	<author>Joep van der Heijden</author>
-	<creationDate>October 2013</creationDate>
-	<copyright>Copyright (C) 2005 - 2013 Moyo Web Architects. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<authorEmail>joep.van.der.heijden@moyoweb.nl</authorEmail>
-	<authorUrl>http://moyoweb.nl</authorUrl>
-	<version>1.0.0</version>
-	<description>Bottom</description>
-	<files>
+    <name>Bottom</name>
+    <author>Joep van der Heijden</author>
+    <creationDate>October 2013</creationDate>
+    <copyright>Copyright (C) 2005 - 2013 Moyo Web Architects. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>joep.van.der.heijden@moyoweb.nl</authorEmail>
+    <authorUrl>http://moyoweb.nl</authorUrl>
+    <version>1.0.0</version>
+    <description>Bottom</description>
+    <files>
+        <filename module="mod_bottom">mod_bottom.php</filename>
         <folder>elements</folder>
         <folder>language</folder>
         <folder>tmpl</folder>
         <folder>templates</folder>
         <filename>html.php</filename>
-		<filename>mod_bottom.php</filename>
-		<filename>mod_bottom.xml</filename>
-	</files>
+        <filename>mod_bottom.php</filename>
+    </files>
 
     <languages>
-        <language tag="en-GB">language/en-GB/en-GB.mod_articles_popular.ini</language>
-        <language tag="en-GB">language/en-GB/en-GB.mod_articles_popular.sys.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.mod_bottom.ini</language>
+        <language tag="fr-FR">language/fr-FR/fr-FR.mod_bottom</language>
     </languages>
     <config>
         <fields name="params">
@@ -183,13 +183,13 @@
                         description="THE_MENU_TO_SHOW_IN_THE_FOOTER">
 
                 </field>
-	            <field
-			            name="copyright_text"
-			            type="editor"
-			            label="COPYRIGHT_TEXT"
-			            description="THE_TEXT_TO_SHOW_IN_THE_FOOTER">
+                <field
+                        name="copyright_text"
+                        type="editor"
+                        label="COPYRIGHT_TEXT"
+                        description="THE_TEXT_TO_SHOW_IN_THE_FOOTER">
 
-	            </field>
+                </field>
             </fieldset>
             <fieldset name="logo">
                 <field
