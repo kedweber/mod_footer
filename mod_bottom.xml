@@ -129,6 +129,12 @@
                         label="SLIDESHARE"
                         description="LINK_TO_SLIDESHARE">
                 </field>
+                <field
+                        name="follow_blogger"
+                        type="text"
+                        label="BLOGGER"
+                        description="LINK_TO_BLOGGER">
+                </field>
             </fieldset>
             <fieldset name="newsletter">
                 <field
