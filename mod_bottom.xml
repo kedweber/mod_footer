@@ -88,6 +88,12 @@
                         description="LINK_TO_FACEBOOK">
                 </field>
                 <field
+                        name="follow_google"
+                        type="text"
+                        label="GOOGLE"
+                        description="LINK_TO_GOOGLE">
+                </field>
+                <field
                         name="follow_twitter"
                         type="text"
                         label="TWITTER"
