@@ -7,7 +7,7 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <authorEmail>joep.van.der.heijden@moyoweb.nl</authorEmail>
     <authorUrl>http://moyoweb.nl</authorUrl>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <description>Generic module for CTA websites to display contact data and social media links at the bottom of the page</description>
     <files>
         <filename module="mod_bottom">mod_bottom.php</filename>
