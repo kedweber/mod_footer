@@ -10,13 +10,13 @@
     <version>1.0.2</version>
     <description>Generic module for CTA websites to display contact data and social media links at the bottom of the page</description>
     <files>
-        <filename module="mod_bottom">mod_bottom.php</filename>
+        <file module="mod_bottom">mod_bottom.php</file>
+        <file>html.php</file>
+        
         <folder>elements</folder>
         <folder>language</folder>
-        <folder>tmpl</folder>
         <folder>templates</folder>
-        <filename>html.php</filename>
-        <filename>mod_bottom.php</filename>
+        <folder>tmpl</folder>
     </files>
 
     <languages>
