@@ -1,9 +1,9 @@
 {
-    "name": "cta/footer",
+    "name": "moyo/mod_footer",
     "type": "joomlatools-installer",
     "description": "Articles Package. Second version.",
     "keywords": ["joomla", "articles"],
-    "homepage": "https://github.com/cta-int/articles",
+    "homepage": "https://github.com/kedweber/mod_footer",
     "authors": [
         {
             "name": "Joep van der Heijden",
